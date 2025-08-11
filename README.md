@@ -56,3 +56,14 @@ This Corporate Agent provides a document review tool for ADGM corporate incorpor
        -Click Analyze Documents.
        -View structured JSON analysis and download reviewed documents with comments.
    ---
+
+## Outcomes
+**Gradio UI**: The application uses Gradio for its user interface.
+
+**RAG-compatible LLM**: It is integrated with the Gemini API to power its RAG system.
+
+**Inputs**: It accepts .docx and .pdf files.
+
+**Outputs**: It generates both a structured JSON report and a marked-up .docx file for download.
+
+**Legal Accuracy**: The RAG system uses a pre-populated mock knowledge base derived from official ADGM documents to provide accurate, context-aware responses.
