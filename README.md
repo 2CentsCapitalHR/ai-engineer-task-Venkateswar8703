@@ -1,7 +1,7 @@
 # ADGM-Compliant Corporate Agent with Document Intelligence USING RAG
 
 ## Overview
-This Corporate Agent provides a document review tool for ADGM corporate incorporation documents. It uses a Retrieval-Augmented Generation (RAG) pipeline with Gemini (Google PaLM API) to analyze `.docx` files, highlight issues, and provide compliance suggestions based on official ADGM references.
+An advanced AI-powered legal assistant that automates the review of ADGM-related legal documents. This agent verifies compliance against checklists, flags regulatory issues with citations using a Retrieval-Augmented Generation (RAG) system, and provides a structured analysis report.
  
 ---
 
