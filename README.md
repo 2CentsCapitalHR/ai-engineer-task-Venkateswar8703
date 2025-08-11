@@ -1,5 +1,6 @@
 # ADGM-Compliant Corporate Agent with Document Intelligence USING RAG
 
+## Overview
 This project provides a document review tool for ADGM corporate incorporation documents. It uses a Retrieval-Augmented Generation (RAG) pipeline with Gemini (Google PaLM API) to analyze `.docx` files, highlight issues, and provide compliance suggestions based on official ADGM references.
 
 ---
@@ -42,8 +43,8 @@ This project provides a document review tool for ADGM corporate incorporation do
    This folder is used to build the retrieval index for RAG.
 6. **Run the Gradio demo:**
    python app.py
-7. **Open the URL provided by Gradio in your browser:**
-     **Usage**
+7. **Open the URL provided by Gradio in your browser:Usage**
+     
    ---
        -Upload one or more .docx files related to ADGM incorporation.
        -Click Analyze Documents.
