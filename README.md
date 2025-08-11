@@ -26,10 +26,10 @@ This Corporate Agent provides a document review tool for ADGM corporate incorpor
 
 ## Setup Instructions
 
-1. **Clone the repository or unzip the codebase:**  
+1. **Install the requirements:**  
    ```bash
-   git clone <your_repo_url>
-   cd <repo_folder>
+   pip install -r requirements.txt
+   streamlit run app.py
 2. **Create a Python virtual environment:**
    ```bash
    python -m venv venv
@@ -49,7 +49,7 @@ This Corporate Agent provides a document review tool for ADGM corporate incorpor
 8. **Run the Gradio demo:**
     ```bash
    python app.py
-9. **Open the URL provided by Gradio in your browser:Usage**
+9. **Open the URL provided by Gradio in your browser:**
      
    ---
        -Upload one or more .docx files related to ADGM incorporation.
